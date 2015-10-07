@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblHelloWorld = new System.Windows.Forms.Label();
+            this.btnHelloWorld = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lblHelloWorld
+            // btnHelloWorld
             // 
-            this.lblHelloWorld.AutoSize = true;
-            this.lblHelloWorld.Font = new System.Drawing.Font("Comic Sans MS", 27F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHelloWorld.Location = new System.Drawing.Point(18, 104);
-            this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(254, 51);
-            this.lblHelloWorld.TabIndex = 0;
-            this.lblHelloWorld.Text = "Hello, World!";
-            this.lblHelloWorld.Click += new System.EventHandler(this.lblHelloWorld_Click);
+            this.btnHelloWorld.BackColor = System.Drawing.Color.Red;
+            this.btnHelloWorld.ForeColor = System.Drawing.Color.Black;
+            this.btnHelloWorld.Location = new System.Drawing.Point(38, 12);
+            this.btnHelloWorld.Name = "btnHelloWorld";
+            this.btnHelloWorld.Size = new System.Drawing.Size(178, 228);
+            this.btnHelloWorld.TabIndex = 0;
+            this.btnHelloWorld.Text = "DON\'T CLICK THE BIG RED BUTTON!";
+            this.btnHelloWorld.UseVisualStyleBackColor = false;
+            this.btnHelloWorld.Click += new System.EventHandler(this.btnHelloWorld_Click);
             // 
             // frmHelloWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.lblHelloWorld);
+            this.Controls.Add(this.btnHelloWorld);
             this.Name = "frmHelloWorld";
             this.Text = "Hello, World!";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label lblHelloWorld;
+        private System.Windows.Forms.Button btnHelloWorld;
     }
 }
 
